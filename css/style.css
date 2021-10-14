@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image:url("/img/gambito-de-dama2.png");
+    background-image:url("../img/gambito-de-dama2.png");
     background-size:auto;
     background-position:inherit;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -37,7 +37,7 @@ h1 {
 }
 
 #chess-table-container {
-    background: url("/img/fondo-table-dark.jpg");
+    background: url("../img/fondo-table-dark.jpg");
     background-size:cover;
     box-shadow: 1px 5px 9px 20px rgba(242, 117, 22, 0.8);
     border-radius: 3px;
