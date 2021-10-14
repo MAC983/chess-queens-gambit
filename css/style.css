@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url("/img/gambito-de-dama2.png");
+    background-size:auto;
+    background-position:inherit;
+    font-family: 'Scheherazade New', serif;
+    text-align: center;
+    width:100%;
+    height:100%;
+}
+
+body::after {
+    content:"";
+    position:absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background:rgba(136, 118, 92, 0.4);
+    z-index:-1;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 60px;
+    line-height: 60px;
+    padding: 10px 20px;
+    font-weight: 800;
+    background-color: rgb(252, 252, 252);
+    color: rgb(216, 108, 25);
+    border: 8px double rgb(216, 131, 52);
+}
+
+#chess-table-container {
+    background: url("/img/fondo-table-dark.jpg");
+    background-size:cover;
+    box-shadow: 1px 5px 9px 20px rgba(242, 117, 22, 0.8);
+    border-radius: 3px;
+    border-collapse: collapse;
+    height: 50%;
+    /* width: 50%;  */
+    position: relative;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#chess-table-container td {
+    color: rgb(181, 87, 25);
+    font-size: 36px;
+    text-shadow: 5px 5px 1px rgba(243, 183, 151, 0.796);
+    width: 50px;
+    height: 50px;
+}
+
+#chess-table-container .white {
+    color: rgb(237, 211, 178);
+    text-shadow: 5px 5px 1px rgba(240, 120, 34, 0.953);
+}
+
+
+#chess-table-container tr:nth-child(odd) td:nth-child(even),
+#chess-table-container tr:nth-child(even) td:nth-child(odd) {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+
